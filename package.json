@@ -1,0 +1,30 @@
+{
+  "name": "eater-of-worlds",
+  "version": "0.0.1",
+  "description": "Ingests Obsidian markdown vaults into Foundry VTT journal pages.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && node utils/build.mjs",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "nodemon --watch src --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuamgrosser/eater-of-worlds.git"
+  },
+  "keywords": [],
+  "author": "Joshua Grosser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuamgrosser/eater-of-worlds/issues"
+  },
+  "homepage": "https://github.com/joshuamgrosser/eater-of-worlds#readme",
+  "devDependencies": {
+    "@types/fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#main",
+    "@types/node": "^25.0.3",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

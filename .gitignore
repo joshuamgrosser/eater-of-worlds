@@ -95,6 +95,10 @@ dist
 .temp
 .cache
 
+# Foundry VTT module build output
+dist/
+package/
+
 # Sveltekit cache directory
 .svelte-kit/
 
