@@ -1,0 +1,24 @@
+{
+  "id": "eater-of-worlds",
+  "title": "Eater of Worlds",
+  "description": "Ingests Obsidian markdown vaults into Foundry VTT journal pages.",
+  "authors": [
+    {
+      "name": "Joshua Grosser"
+    }
+  ],
+  "version": "${version}",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "esmodules": [
+    "scripts/index.js"
+  ],
+  "url": "${url}",
+  "manifest": "${manifest}",
+  "download": "${download}",
+  "license": "LICENSE",
+  "readme": "README.md"
+}
+
